@@ -1,0 +1,7 @@
+{
+    "Images": [".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg"],
+    "Archives": [".zip", ".rar", ".7z", ".tar", ".gz"],
+    "ISOs": [".iso"],
+    "Documents": [".pdf", ".docx", ".txt", ".xlsx", ".pptx"],
+    "Installers": [".exe", ".msi", ".dmg", ".pkg", ".deb", ".appimage"]
+}

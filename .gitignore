@@ -1,0 +1,4 @@
+sort_test/
+__pycache__/
+*.pyc
+.vscode/
