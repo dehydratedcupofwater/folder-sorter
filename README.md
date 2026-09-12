@@ -3,7 +3,7 @@
 A cross-platform Python script that watches a folder (e.g. your
 Downloads folder) and automatically sorts new files into subfolders
 based on their extension — `.png` → `Images/`, `.zip` → `Archives/`,
-`.iso` → `ISOs/`, and so on. Works on Linux, macOS, and Windows universally!
+`.iso` → `ISOs/`, and so on. Works on Linux, macOS, and Windows.
 
 ## How It Works
 
@@ -13,7 +13,7 @@ partial download finishes and gets renamed), the script checks its
 extension against `config.json` and moves it into the matching
 subfolder. Files with no matching category are left untouched.
 Filename collisions are handled automatically (`photo.png` becomes
-`photo_1.png`, `photo_2.png`, etc. if a name's already taken)
+`photo_1.png`, `photo_2.png`, etc. if a name's already taken.)
 Existing files are never overwritten. (Let me know if you encounter bugs!)
 
 ![Demo](demosorter.png)
@@ -25,9 +25,9 @@ Existing files are never overwritten. (Let me know if you encounter bugs!)
   pip install -r requirements.txt
   \```
 
-  ## How to Run
+## How to Run
 \```
-python3 postwatchdog_sorter.py --folder ~/Downloads
+python3 file_sorter.py --folder ~/Downloads
 \```
 (Defaults to `~/Downloads` if `--folder` isn't specified.)
 
@@ -47,5 +47,8 @@ For example, to add a "Videos" category:
 \```
 
 Add it as a new line inside the outer `{ }` braces, make sure there's
-a comma after the previous entry, and save the file. No restart code
-changes needed just restart the script.
+a comma after the previous entry, and save the file. No code
+changes needed. Just restart the script.
+
+## License
+MIT — see [LICENSE](LICENSE) for details.

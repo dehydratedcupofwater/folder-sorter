@@ -2,3 +2,4 @@ sort_test/
 __pycache__/
 *.pyc
 .vscode/
+prewatchdog_sorter.py
